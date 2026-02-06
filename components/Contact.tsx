@@ -66,8 +66,7 @@ const Contact: React.FC = () => {
                 </label>
                 <textarea
                   rows={4}
-                  resize="none"
-                  className="w-full bg-gray-900 border border-gray-800 rounded-2xl p-4 focus:outline-none focus:border-indigo-500 transition-colors"
+                  className="w-full bg-gray-900 border border-gray-800 rounded-2xl p-4 focus:outline-none focus:border-indigo-500 transition-colors resize-none"
                   placeholder="Tell me about your project..."
                 ></textarea>
               </div>
