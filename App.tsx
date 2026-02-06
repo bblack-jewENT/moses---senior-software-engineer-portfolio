@@ -121,6 +121,8 @@ const App: React.FC = () => {
               href="https://github.com/bblack-jewENT"
               aria-label="GitHub"
               title="GitHub"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-8 h-8 rounded-lg bg-gray-900 flex items-center justify-center hover:bg-gray-800 transition-colors"
             >
               <i className="fab fa-github"></i>
@@ -128,6 +130,8 @@ const App: React.FC = () => {
             <a
               href="https://www.linkedin.com/in/bblack-jewent/"
               aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
               title="LinkedIn"
               className="w-8 h-8 rounded-lg bg-gray-900 flex items-center justify-center hover:bg-gray-800 transition-colors"
             >
