@@ -20,20 +20,32 @@ const Contact: React.FC = () => {
                 <ContactInfo
                   icon="fa-envelope"
                   label="Email"
-                  value="hello@moses.dev"
+                  value="mrswartz4@icloud.com"
                 />
                 <ContactInfo
                   icon="fa-location-dot"
                   label="Location"
-                  value="San Francisco, CA"
+                  value="Pretoria, Gauteng"
                 />
               </div>
             </div>
 
             <div className="flex space-x-6 mt-12">
-              <SocialLink icon="fa-github" label="GitHub" />
-              <SocialLink icon="fa-linkedin" label="LinkedIn" />
-              <SocialLink icon="fa-twitter" label="Twitter" />
+              <SocialLink
+                icon="fa-github"
+                label="GitHub"
+                href="https://github.com/bblack-jewENT"
+              />
+              <SocialLink
+                icon="fa-linkedin"
+                label="LinkedIn"
+                href="https://www.linkedin.com/in/bblack-jewent/"
+              />
+              <SocialLink
+                icon="fa-twitter"
+                label="Twitter"
+                href="https://x.com/moses44044"
+              />
             </div>
           </div>
 
@@ -87,15 +99,19 @@ const ContactInfo: React.FC<{ icon: string; label: string; value: string }> = ({
   </div>
 );
 
-const SocialLink: React.FC<{ icon: string; label?: string }> = ({
+const SocialLink: React.FC<{ icon: string; label?: string; href?: string }> = ({
   icon,
   label = "Social Link",
+  href = "#",
 }) => (
   <a
-    href="#"
+    href={href}
     aria-label={label}
     title={label}
     className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-indigo-600 transition-all duration-300"
+    {...(href && href.startsWith("http")
+      ? { target: "_blank", rel: "noopener noreferrer" }
+      : {})}
   >
     <i className={`fab ${icon}`}></i>
   </a>
