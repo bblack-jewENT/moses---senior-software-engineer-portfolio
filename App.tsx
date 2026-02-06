@@ -100,7 +100,7 @@ const App: React.FC = () => {
       <footer className="py-12 border-t border-gray-900 bg-gray-950">
         <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
           <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} Moses. Built with React & Gemini.
+            © {new Date().getFullYear()} Moses. Built by bblack-jew ENTj .
           </p>
           <div className="flex space-x-8">
             <a
@@ -118,7 +118,7 @@ const App: React.FC = () => {
           </div>
           <div className="flex space-x-4">
             <a
-              href="#"
+              href="https://github.com/bblack-jewENT"
               aria-label="GitHub"
               title="GitHub"
               className="w-8 h-8 rounded-lg bg-gray-900 flex items-center justify-center hover:bg-gray-800 transition-colors"
@@ -126,7 +126,7 @@ const App: React.FC = () => {
               <i className="fab fa-github"></i>
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/bblack-jewent/"
               aria-label="LinkedIn"
               title="LinkedIn"
               className="w-8 h-8 rounded-lg bg-gray-900 flex items-center justify-center hover:bg-gray-800 transition-colors"
