@@ -1,0 +1,7 @@
+{
+  "name": "Moses - Senior Software Engineer Portfolio",
+  "description": "A high-performance personal portfolio for Moses, featuring interactive project showcases, skill visualizations, and an AI-powered personal assistant powered by Gemini.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
