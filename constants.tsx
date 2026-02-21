@@ -1,43 +1,47 @@
-
-import { Project, Skill } from './types';
+import { Project, Skill } from "./types";
 
 export const PROJECTS: Project[] = [
   {
-    id: '1',
-    title: 'CloudScale Dashboard',
-    description: 'A real-time monitoring dashboard for distributed systems with live telemetry and predictive alerts.',
-    tech: ['React', 'TypeScript', 'D3.js', 'Tailwind', 'Node.js'],
-    image: 'https://picsum.photos/seed/cloud/800/600',
-    github: 'https://github.com',
-    demo: 'https://demo.com'
+    id: "1",
+    title: "CourseCode",
+    description:
+      "A study tool that teaches coding concepts through interactive exercises and real-time feedback.",
+    tech: ["React", "TypeScript", "D3.js", "Firebase", "Node.js"],
+    image: "img/course-code.png",
+    github: "https://github.com/bblack-jewENT/CourseCode",
+    demo: "https://course-code-chi.vercel.app/",
   },
   {
-    id: '2',
-    title: 'Gemini-Powered Knowledge Graph',
-    description: 'An AI-driven application that builds semantic links between documents using LLMs and vector databases.',
-    tech: ['Next.js', 'Python', 'Gemini API', 'PostgreSQL', 'Docker'],
-    image: 'https://picsum.photos/seed/ai/800/600',
-    github: 'https://github.com'
+    id: "2",
+    title: "Github User Search",
+    description:
+      "An intuitive interface for searching GitHub users and repositories, with detailed profiles and activity insights.",
+    tech: ["React", "Python", "Gemini API", "PostgreSQL", "Docker"],
+    image: "img/Github-user-search.png",
+    github:
+      "https://github.com/bblack-jewENT/alx-fe-reactjs/tree/main/github-user-search",
+    demo: "https://alx-fe-reactjs-two-swart-65.vercel.app/",
   },
   {
-    id: '3',
-    title: 'FlowState Editor',
-    description: 'A high-performance markdown editor with collaborative features and real-time canvas visualization.',
-    tech: ['React', 'WebRTC', 'ProseMirror', 'Framer Motion'],
-    image: 'https://picsum.photos/seed/flow/800/600',
-    demo: 'https://demo.com'
-  }
+    id: "3",
+    title: "FlowState Editor",
+    description:
+      "A high-performance markdown editor with collaborative features and real-time canvas visualization.",
+    tech: ["React", "WebRTC", "ProseMirror", "Framer Motion"],
+    image: "https://picsum.photos/seed/flow/800/600",
+    demo: "https://demo.com",
+  },
 ];
 
 export const SKILLS: Skill[] = [
-  { name: 'React / Next.js', level: 95, category: 'Frontend' },
-  { name: 'TypeScript', level: 90, category: 'Frontend' },
-  { name: 'Tailwind CSS', level: 95, category: 'Frontend' },
-  { name: 'D3.js / Recharts', level: 85, category: 'Frontend' },
-  { name: 'Node.js / Express', level: 80, category: 'Backend' },
-  { name: 'PostgreSQL', level: 75, category: 'Backend' },
-  { name: 'Gemini API', level: 85, category: 'AI' },
-  { name: 'Docker / CI/CD', level: 70, category: 'Tools' }
+  { name: "React / Next.js", level: 95, category: "Frontend" },
+  { name: "TypeScript", level: 90, category: "Frontend" },
+  { name: "Tailwind CSS", level: 95, category: "Frontend" },
+  { name: "D3.js / Recharts", level: 85, category: "Frontend" },
+  { name: "Node.js / Express", level: 80, category: "Backend" },
+  { name: "PostgreSQL", level: 75, category: "Backend" },
+  { name: "Gemini API", level: 85, category: "AI" },
+  { name: "Docker / CI/CD", level: 70, category: "Tools" },
 ];
 
 export const MOSES_BIO = `
