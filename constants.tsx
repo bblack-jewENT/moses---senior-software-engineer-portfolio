@@ -24,12 +24,13 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "3",
-    title: "FlowState Editor",
+    title: "MovieWatch",
     description:
-      "A high-performance markdown editor with collaborative features and real-time canvas visualization.",
-    tech: ["React", "WebRTC", "ProseMirror", "Framer Motion"],
-    image: "https://picsum.photos/seed/flow/800/600",
-    demo: "https://demo.com",
+      "A movie streaming platform that allows users to watch movie trailers together in real-time, with youtube API intergration.",
+    tech: ["React", "Youtube API", "Node.js"],
+    image: "img/movie-watch.png",
+    github: "https://github.com/bblack-jewENT/MovieWatch",
+    demo: "https://movie-watch-nine-lake.vercel.app/",
   },
 ];
 
