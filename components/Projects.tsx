@@ -114,6 +114,17 @@ const Projects: React.FC = () => {
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
+        <div className="flex justify-center mt-12">
+          <button
+            className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-full font-bold text-lg transition-colors shadow-lg shadow-indigo-500/20"
+            onClick={() => {
+              window.history.pushState({}, "", "/all-projects");
+              window.dispatchEvent(new PopStateEvent("popstate"));
+            }}
+          >
+            Show More Projects
+          </button>
+        </div>
       </div>
     </section>
   );
